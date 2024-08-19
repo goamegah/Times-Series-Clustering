@@ -19,11 +19,36 @@ L’objectif de ce projet est d’utiliser la classification non supervisée pou
 
 Les données utilisées dans ce projet représentent la consommation d'énergie de 100 appartements, mesurée toutes les 30 minutes sur une période de 91 jours consécutifs. Chaque ligne du jeu de données correspond à une mesure de consommation pour un appartement à un moment donné.
 
+
 - **Source des données**: Les données peuvent être obtenues à partir de [lien vers la source des données].
-- **Format des données**: Les données sont au format CSV avec les colonnes suivantes :
-  - `timestamp`: Le moment de la mesure.
-  - `apartment_id`: L'identifiant de l'appartement.
-  - `energy_consumption`: La consommation d'énergie mesurée.
+- **Format des données**: Les données sont au format texte avec les fichiers suivants :
+
+  - `APPART.txt`: Contient les identifiants des appartements. Chaque ligne correspond à un appartement.
+  
+```plaintext
+1
+1
+1
+1
+...
+```
+
+  - [`JOUR.txt`]("donnees/JOUR.txt"): Contient les identifiants des jours. Chaque ligne correspond à un jour.
+
+```plaintext
+1
+2
+3
+...
+```
+
+  - [`X.txt`]("donnees/X.txt"): Contient les mesures de consommation d'énergie. Chaque ligne correspond à une mesure de consommation pour un appartement à un moment donné.
+
+```plaintext
+0.123 0.456 0.789 ...
+0.234 0.567 0.890 ...
+...
+```
 
 ### Dépendances
 
