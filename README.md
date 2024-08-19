@@ -1,4 +1,4 @@
-<h1 align="center">Time Series Forecasting</h1>
+<h1 align="center">Time Series Clustering</h1>
 
 <h3 align="center">Regroupement des variations de la consommation d’énergie des appartements</h3>
 <h4 align="center">
