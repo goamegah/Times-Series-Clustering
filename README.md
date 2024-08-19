@@ -15,6 +15,9 @@
 
 L’objectif de ce projet est d’utiliser la classification non supervisée pour résumer les variations de la consommation d’énergie de 100 appartements, observée toutes les 30 minutes durant 91 jours consécutifs. Plus spécifiquement, on cherche ici à obtenir une classification des jours, uniforme pour l’ensemble des appartements. Une telle classification pourra être utile, par exemple, dans le cadre de la surveillance d’un réseau d’électricité.
 
+
+![image](/documentation/output.png)
+
 ### Données
 
 Les données utilisées dans ce projet représentent la consommation d'énergie de 100 appartements, mesurée toutes les 30 minutes sur une période de 91 jours consécutifs. Chaque ligne du jeu de données correspond à une mesure de consommation pour un appartement à un moment donné.
